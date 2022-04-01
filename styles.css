@@ -17,15 +17,25 @@ body {
     margin-bottom: 10px;
 }
 
+.info-text {
+    margin-left: 20px;
+}
+
 @media (max-width: 969px) {
     .header {
         display: block;
         text-align: center;
     }
+
+    .info-text {
+        margin-left: 0;
+    }
 }
 
-.info-text {
-    margin-left: 20px;
+@media (max-width: 317px) {
+    .info-text h1 {
+        line-height: 40px;
+    }
 }
 
 .info-text p {
@@ -139,6 +149,8 @@ a:active {
     .table th {
         padding: 0 5px;
     }
+
+
 }
 
 .list {
